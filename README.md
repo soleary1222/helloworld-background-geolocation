@@ -34,10 +34,10 @@ I add the AppFlow feature using the below commands:
 
 8. Downloaded apk and installed on device to verify it does not crash
 
-9. I navigated to the project root and installed cordova-background-geolocation-lt per here: https://github.com/transistorsoft/cordova-background-geolocation-lt/blob/master/help/INSTALL_CAPACITOR.md
-I used the below commands  
-`npm install cordova-background-geolocation-lt`
-`npx cap sync`
+9. I navigated to the project root and installed cordova-background-geolocation-lt per here: https://github.com/transistorsoft/cordova-background-geolocation-lt/blob/master/help/INSTALL_CAPACITOR.md  
+I used the below commands    
+`npm install cordova-background-geolocation-lt`  
+`npx cap sync`  
 
 10. I added the following lines to app/build.gradle
 ```diff
