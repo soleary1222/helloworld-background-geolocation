@@ -26,7 +26,8 @@ I add the AppFlow feature using the below commands:
 `git update-index --chmod=+x gradlew`  
 
 5. Update version of gradle being used in build.gradle (root)  
-` classpath 'com.android.tools.build:gradle:3.6.3'`  (vs 3.6.1)
+` classpath 'com.android.tools.build:gradle:3.6.3'`  (vs 3.6.1)  
+*A note that I chose to update this because when I built locally in android studio, it wanted to update the gradle version.  I attempted an appflow build using 3.6.1 and 3.6.3 and both ended up with the error at the bottom.*
 
 6. Committed code 
 
