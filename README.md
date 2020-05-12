@@ -11,13 +11,13 @@ I created the app using the below commands:
 3. Per the instructions here: https://ionicframework.com/blog/introducing-capacitor-support-for-ionic-appflow/  
 I add the AppFlow feature using the below commands:  
 `ionic link`  
-(First prompt: Create new app or link existing one?  I chose "create a new app")
-(Second prompt: provide a name for new app)
-(Third prompt: Link to github and selected the repository that I created in step 2, and linked to master branch)
+(First prompt: Create new app or link existing one?  I chose "create a new app")  
+(Second prompt: provide a name for new app)  
+(Third prompt: Link to github and selected the repository that I created in step 2, and linked to master branch)  
 `ionic deploy add`  
-(First prompt: Appflow App ID?  I just clicked enter to use the created app in the previous command)
-(Second prompt: Channel Name?  "Master")
-(Third Prompt: Update Method?  "background")
+(First prompt: Appflow App ID?  I just clicked enter to use the created app in the previous command)  
+(Second prompt: Channel Name?  "Master")  
+(Third Prompt: Update Method?  "background")  
 
 4. I committed the code to the repo
 
