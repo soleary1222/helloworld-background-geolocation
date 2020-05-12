@@ -1,5 +1,8 @@
 apply plugin: 'com.android.application'
 
+def background_geolocation = "../../node_modules/cordova-background-geolocation-lt/src/android"
+apply from: "$background_geolocation/app.gradle"
+
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
@@ -14,6 +17,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles "$background_geolocation/proguard-rules.pro"
         }
     }
 }
