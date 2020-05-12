@@ -72,3 +72,7 @@ Could not get unknown property 'applicationVariants' for object of type com.andr
 
 ![image](https://user-images.githubusercontent.com/6031711/81096998-3b29e100-8ed5-11ea-87ef-277716d81132.png)
 
+
+14.  Not sure if this helps, but somehow the plugin is thinking it's a release build or not recognizing capacitor correctly:
+
+![Annotation 2020-05-12 140225](https://user-images.githubusercontent.com/6031711/81729046-5a86b800-9459-11ea-9735-caf89118299e.png)
