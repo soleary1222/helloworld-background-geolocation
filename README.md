@@ -2,7 +2,7 @@ I created this hello world app like so:
 1. Per the instructions here: https://capacitor.ionicframework.com/docs/getting-started/with-ionic/  
 I created the app using the below commands:  
 `ionic start myApp tabs --capacitor`  
-(I chose the angular option for 'framework')
+(I chose the angular option for 'framework')  
 `ionic build`  
 `npx cap add android`  
 
@@ -19,11 +19,11 @@ I add the AppFlow feature using the below commands:
 (Second prompt: Channel Name?  "Master")  
 (Third Prompt: Update Method?  "background")  
 
-4. I committed the code to the repo
+4. I committed the code to the repo  
 
 5. I set gradlew permissions for build:  
-`cd android`
-`git update-index --chmod=+x gradlew`
+`cd android`  
+`git update-index --chmod=+x gradlew`  
 
 5. Update version of gradle being used in build.gradle (root)  
 ` classpath 'com.android.tools.build:gradle:3.6.3'`  (vs 3.6.1)
